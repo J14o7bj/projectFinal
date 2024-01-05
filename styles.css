@@ -1,0 +1,388 @@
+/* styles.css */
+
+
+/* Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+/* Apply font-family to all elements */
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    left: 0;
+    transform: translate(calc(50vw - 50%), -50%);
+}
+
+.header-admin {
+    box-sizing: border-box;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head1 {
+    color: #5B4E44;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 40px;
+}
+
+.rightcenter {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.menubar {
+    width: 80px;
+    height: 722px;
+    flex-shrink: 0;
+    background: #978B78;
+}
+
+.icons {
+    margin-left: 11px;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    max-width: 200px;
+}
+
+.tab button {
+    background-color: #f2f2f200;
+    border: 0px;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tab button.active {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    margin: auto;
+}
+
+.containers {
+    display: flex;
+}
+
+.area-body {
+    margin-top: 40px;
+    margin-left: 36px;
+}
+
+.headertab {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+}
+
+.headtable {
+    margin-top: 2px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 32px;
+}
+
+.text-price {
+    margin-top: 2px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 24px;
+}
+
+.text-order-name {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.text-order-option {
+    margin-top: 2px;
+    margin-left: 16px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.text-order-quality {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.card-order-lg {
+    width: 400px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.card-order-sm {
+    width: 365px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F7F7F7;
+    margin-bottom: 3px;
+}
+
+.button-green {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #92BD70;
+    border: 0px;
+}
+
+.button-red {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #DC7862;
+    border: 0px;
+}
+
+.button-yellow {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #BDB670;
+    border: 0px;
+}
+
+.card-type {
+    width: 150px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #978B78;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    margin-right: 5px;
+}
+
+.add-card-type {
+    width: 150px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px dashed #978B78;
+    background: rgba(255, 255, 255, 0.34);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-type-name {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #F7F7F7;
+}
+
+.add-text-type-name {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #978B78;
+}
+
+.card-list {
+    width: 1000px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: -12px;
+}
+
+.table-row {
+    width: 950px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #B9B8B8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    margin-top: 29px;
+}
+
+.cell {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    color: #F7F7F7;
+}
+
+.image-box {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    overflow: hidden;
+    border: 3px solid #5B4E44;
+}
+
+.image-box img {
+    /* max-width: 100%; */
+    max-height: 100%;
+    display: block;
+    /* Remove any default inline styles that might affect display */
+    /* Apply border-radius to the image */
+    /* object-fit: cover; */
+}
+
+.image-box-lg {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    overflow: hidden;
+    border: 3px solid #5B4E44;
+}
+
+.image-box-lg img {
+    /* max-width: 100%; */
+    max-height: 100%;
+    display: block;
+    /* Remove any default inline styles that might affect display */
+    /* Apply border-radius to the image */
+    /* object-fit: cover; */
+}
+
+.row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Custom CSS styles can be added here */
+
+.card-section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-column {
+    flex: 1;
+    margin-right: 15px;
+    /* Adjust the margin as needed */
+    /* margin-bottom: 15px; */
+    /* Adjust the margin as needed */
+}
+
+.card-stock-side {
+    /* flex: 1; */
+    width: 250px;
+    height: 580px;
+    fill: #D9D9D9;
+    background-color: lightgray;
+    border-radius: 10px;
+    /* Example background color for the third part */
+}
+
+.add-card-option {
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px dashed #978B78;
+    background: rgba(255, 255, 255, 0.34);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-text-type-option {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #978B78;
+}
