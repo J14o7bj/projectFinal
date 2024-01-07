@@ -46,6 +46,7 @@
     font-weight: 400;
     line-height: normal;
     font-size: 40px;
+    text-decoration: none;
 }
 
 .rightcenter {
@@ -182,6 +183,15 @@
     border: 0px;
 }
 
+.button-green-long {
+    width: 150px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #92BD70;
+    border: 0px;
+}
+
 .button-red {
     width: 100px;
     height: 35px;
@@ -237,6 +247,7 @@
     text-align: center;
     vertical-align: middle;
     color: #F7F7F7;
+    text-decoration: none;
 }
 
 .add-text-type-name {
@@ -263,6 +274,9 @@
     align-items: center;
     justify-content: start;
     margin-left: -12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
 }
 
 .table-row {
@@ -275,7 +289,21 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 29px;
+    margin-top: 29px;
+}
+
+.table-head-row {
+    width: 950px;
+    /* height: 80px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    /* background: #B9B8B8; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 29px;
     margin-top: 29px;
 }
 
@@ -293,6 +321,7 @@
     background: #FFF;
     overflow: hidden;
     border: 3px solid #5B4E44;
+    text-align: -webkit-center;
 }
 
 .image-box img {
@@ -382,6 +411,44 @@
     margin-bottom: 4px;
     font-family: 'Noto Sans Thai', sans-serif;
     font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #978B78;
+}
+
+.text-type-mini {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: #F7F7F7;
+}
+
+.text-thead {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+
+.container-type-card {
+    width: 1000px;
+    height: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    .onerow {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.text-add-img {
+    text-decoration: none;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
     text-align: center;
     vertical-align: middle;
     color: #978B78;

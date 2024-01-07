@@ -19,27 +19,13 @@ while ($row = mysqli_fetch_row($r)) {
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Edit</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="..\asset\css\bootstrap.min.css">
-        <style>
-            body {
-                background-image: url('');
-            }
-
-            footer {
-                position: absolute;
-                font-size: 12px;
-                bottom: 0;
-                left: 0;
-                transform: translate(calc(50vw - 50%), -50%);
-                color: Black;
-            }
-        </style>
+        <?php include('../link.php'); ?>
+        <link rel="stylesheet" href="../styles.css">
     </head>
 
     <body>
 
-        <form action="edit_r_data_db.php" method="get" class="" style="padding: 50px;">
+        <form action="edit_type.php" method="get" class="" style="padding: 50px;">
             <div class="container mt-5">
                 <div class="row-auto">
                     <div class="col-auto">
@@ -54,9 +40,9 @@ while ($row = mysqli_fetch_row($r)) {
                                     <input type="text" name="ft_name" class="form-control" value="<?php echo $row[1]; ?>">
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                        <button class="btn btn-success mt-2" type="submit">ตกลง</button>
-                                        <a href="res_data.php" class="btn btn-danger mt-2">ยกเลิก</a>
-                                    
+                                    <button class="btn btn-success mt-2" type="submit">ตกลง</button>
+                                    <a href="admin_index.php" class="btn btn-danger mt-2">ยกเลิก</a>
+
                                 </div>
 
                             </div>
@@ -70,6 +56,7 @@ while ($row = mysqli_fetch_row($r)) {
         </footer>
     <?php } ?>
 </body>
-<script src="../asset/css/bootstrap.min.js"></script>
+<?php include('../script.php'); ?>
+
 
 </html>

@@ -12,10 +12,10 @@ WHERE `food_type`.`ft_id` = '$ft_id'";
 $r = mysqli_query($conn,$sql);
 if ($r){
     echo "แก้ไขข้อมูลเรียบร้อย";
-    header('refresh:1; url=res_data.php');
+    header('refresh:1; url=admin_index.php');
 }else{
     echo "ไม่สามารถแก้ไขข้อมูลได้";
-    header('refresh:1; url=edit_r_data.php');
+    header('refresh:1; url=edit_type_data.php');
 }
 
 ?>
