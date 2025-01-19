@@ -24,22 +24,20 @@ if ($num > 0) {
     <body>
         <?php include_once('headerbar.php') ?>
 
-        <!-- Flexbox container for tabs and content -->
         <div class="containers">
 
-            <!-- Vertical tab container -->
             <div class="menubar">
                 <div class="tab">
                     <button class="tablinks" onclick="openPage(event, 'Order')">
                         <img width="36" height="36"
-                            src="https://s3-alpha-sig.figma.com/img/1ebe/74a9/111b06fc0dc7a4b7eefa077264912085?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SR53IrDTuKSVlsL4VesZ86rK4P4jREzEpxjk~q3-PPaNOdo4akGACa1AQDb~b9tABBVTxAmESU~jaD-yLM6b6V2nVxh6ynNDAAqJqxOr7D-JadkZPt6CwfMmBxu8R4~UfEfltEAa5RCJaH7Zw6VyfgCDGbm9DmMtjw4nI3oSnWtgzVEdHMun~bkVreFuKs6wEuRVynpMMWAN2a8nK3RI2JnedMDN-hP0NI05eecY9q5GfSQZmRMhehlbTtl7yJEF9VnRoBcJ6o4l5TVhplOECzFGfXwkEr1uXoT6Q3sz3M3JILktrQas2JFoYmodXnNbdkFEut-z5OM8qNIw~M2tzw__"></button>
+                            src="../img/icon/clipboard.png"></button>
                     <button class="tablinks" onclick="openPage(event, 'Stock')">
                         <img width="36" height="36"
-                            src="https://s3-alpha-sig.figma.com/img/1ffa/0cc1/4111ff6cf6b0aa640c29226fc5f188f8?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EeO73EfRQP2ceSOa1R2MEco7AWBgZKTdT3LA8OMjzSf01HNKKlQwHCkwllF6owFzjoFDeNt~kuPZ~soZ4pbCZ384lBCP9CvnWGYGsU6n2GAd3E5JZusaH5jF8AE0SojvR~~pqLIUBTTYmGuIHRTsD-JP0QsnSyZD5AKvCCRZXlHa6WYr2PBLG~wb7Pm123qqfarBOAO2s5vxrItGvcQCNQUETZslpjFi-cZpXLpBsKo~5j5lZLb7iEusJ6FoUquKKw2LMX4mgoB2Fw7N0oIl7zqWWClG4rQQKYn7ooS9RdCercUovqCnES7AI6G9mdAqLKbJoyXSyrehRJBC5sLWow__"></button>
+                            src="../img/icon/package.png"></button>
                     </button>
                     <button class="tablinks" onclick="openPage(event, 'History')">
                         <img width="36" height="36"
-                            src="https://s3-alpha-sig.figma.com/img/b2b5/0744/fb2216077f6b713aa28ab7c682b44962?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bNl7XoBbEJQCl25fNMclEvQ8-pTQQEWPoB~VD4dfxgExeFF1pZOdQcvWfOFQDLBgCsxH2jbj2oYJhL6ty9nQNcVP~PVQbR6JOLWf84JpBWKE4WAyXUYSqvN8Lx1jqGrKEeF1f~XGnF~-wCCzyDQfBuQPlbjcTEEXY2nrwfM~iM0YQt1RJdCI~WNHQuOJ9Zzx0JzYFjWdSc3j2nk0V9nhd-JXTTY4IJoDwCGiBMMBw7ZOvy6u0OXzAIw3Qu-t8SJAhle9Ak3SjpR5ZtCVlZhuGWK014ozSHjVpQTFuLubZ9acAd~pV8k-lUL7uTMkC5HUv35iII~7a4thi8hW-4hiug__"></button>
+                            src="../img/icon/history.png"></button>
                 </div>
             </div>
 
